@@ -1,20 +1,104 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Portfolio</title>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <style>
+        /* CSS スタイルをここに追加 */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+        }
+
+        .contact-form {
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
-
-
 <body>
-<h1>My page</h1>
-<h2> Theme: Color </h2>
-<img src="./images/Color (1).jpg" alt="Color1" width="20%" height="20%">
-<img src="./images/Color (2).jpg" alt="Color2" width="20%" height="20%">
-<img src="./images/Color (3).jpg" alt="Color3" width="20%" height="20%">
-<img src="./images/Color (4).jpg" alt="Color4" width="20%" height="20%">
-<img src="./images/Color (5).jpg" alt="Color5" width="20%" height="20%">
+    <header>
+        <h1>ポートフォリオ</h1>
+    </header>
+    <div class="container">
+        <section class="profile">
+            <h2>プロフィール</h2>
+            <img src="your-profile-image.jpg" alt="あなたの写真">
+            <p>自己紹介やプロフィールのテキストをここに追加してください。</p>
+        </section>
 
-<br>
-<h2> Theme: Lighting </h2>
-<img src="./images/Lighting (1).jpg" alt="Lighting1" width="20%" height="20%">
+        <section class="portfolio">
+            <h2>作品</h2>
+            <div class="portfolio-item">
+                <img src="portfolio-item-1.jpg" alt="作品1">
+                <p>作品1の説明をここに追加してください。</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolio-item-2.jpg" alt="作品2">
+                <p>作品2の説明をここに追加してください。</p>
+            </div>
+            <!-- 他の作品も同様に追加 -->
+        </section>
+
+        <section class="contact-form">
+            <h2>お問い合わせ</h2>
+            <form action="お問い合わせ処理のURLを入力" method="POST">
+                <input type="text" name="お名前" placeholder="お名前" required>
+                <input type="email" name="メールアドレス" placeholder="メールアドレス" required>
+                <textarea name="お問い合わせ内容" placeholder="お問い合わせ内容" rows="4" required></textarea>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </div>
 </body>
 </html>
