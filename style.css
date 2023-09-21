@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+    background: rgba(255, 255, 255, 0.3);
+}
+header {
+    background-color: #2f2f2f;
+    width: 100%;
+    color: #fff;
+    padding-left:  120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+header .gnav {
+    padding-left: 500px;
+}
+header .gnav .menu {
+    display: flex;
+}
+
+header .gnav .menu li {
+    list-style: none;
+}
+
+header .gnav .menu li + li {
+    margin-left: 60px;
+}
+header .gnav .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding-top: 80px;
+}
+hr {
+    width: 100%;
+    border: none;
+    border-top : 2px dotted #ffffff;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.profile-text {
+    margin: 30px;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.portfolio-text {
+    margin: 30px;
+}
+
+.top-text {
+    text-align: center;
+}
+.portfolio {
+    margin-bottom: 30px;
+    text-align: left;
+}
+.contact {
+    margin-top : 20px;
+    padding-bottom : 100px;
+    text-align: center;
+}
+.button {
+    border-radius: 5px;
+    background-color: #333;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: #2f2f2f;
+    color: #fff;
+    padding-left:  120px;
+    display: flex;
+}
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
