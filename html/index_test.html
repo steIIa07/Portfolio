@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteIIa07</title>
+    <!-- title後で変えるかも-->
+    <link rel="stylesheet" href="../css/style_test.css">
+</head>
+<body>
+    <div class="background">
+    <header>
+        <h1>Issei ICHIKAWA</h1>
+        <nav class="gnav">
+            <ul class="menu">
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2 id="profile">Profile</h2>
+        <section class="profile">
+            <img src="../images/steIIa.png" alt="SteIIa" height ="20%" width="20%">
+            <p class="profile-text">
+                &emsp;出身は福島県。普通科高校より会津大学・コンピュータ理工学部に入学、現在(2023年)は3年生です。
+                情報倫理や情報セキュリティ、プログラミング言語やアルゴリズム、データベースやネットワークなど、コンピュータに関わる幅広い分野について学んでいます。
+                将来的にゲームまたはソフトウェアの開発の仕事に携わりたいと思い、個人的に勉強しています。
+                <br>
+                &emsp;経験のあるプログラミング言語は、C, C++, C#, Java, Python, HTML, CSS, JavaScriptです。
+                普段使用していて、使い慣れているツールは、Unity, Visual Studio, Visual Studio Code, Git, GitHubなどです。
+            </p>
+        </section>
+
+        <hr class="line">
+
+        <h2 id="works">Works</h2>
+        <section class="portfolio">
+            <p class="top-text">今までに作った成果物を紹介します</p>
+
+            <div class="portfolio-item">
+                <img src="../images/steIIa.png" alt="SteIIa" height="20%" width="20%">
+                <p class="portfolio-text">
+                    このサイトです。HTML, CSS, JavaScriptを使用しています。
+                    制作にあたって、初めてのWebサイト作成で、HTML, CSS, JavaScriptの基礎を2~3時間で学び、その後、試行錯誤を重ねて2日で作成しました。
+                    ホスティングサービスには、GitHub Pagesを使用しています。
+                    
+                </p>
+            </div>
+            <div class="portfolio-item">
+                <img src="../images/FlappyBird.jpg" alt="FlappyBird" height="20%" width="20%">
+                <p class="portfolio-text">
+                    オープンキャンパス・オープンラボで、学生に披露するために作成したデモです。あくまでデモなので、ゲームとしては遊びにくいです。
+                    操作はスペースキーを押してジャンプするだけ。Unity MLAgentを用いて、強化学習で訓練したAIと、競うという流れになっています。
+                    このデモを作成するにあたって、Unity MLAgentの基礎を学びました。今回は単純なケースであったため、訓練には時間もかからず、
+                    1日で完成させることができました。具体的には、5分程度の訓練で、非常に高いスコアを出すことができました。
+                    （動画とビルドを後に更新）
+                </p>
+            </div>
+            <div class="portfolio-item">
+                <img src="../images/PK.png" alt="PK-Competition" height="20%" width="20%">
+                <p class="portfolio-text">
+                    とあるゲーム会社のインターンを機に、初めてC++を学び、最終課題として作成したCUIで実行するゲームです。事前の個人的な6時間程の学習と、
+                    実際のインターンでの3日間の学習・課題を行い、その後の2日間で作成しました。サッカーでのPK戦をモチーフにしています。守秘義務を犯すかもしれないので、
+                    ソースコードはPrivateでGithubに挙げています。
+                    （動画とビルドを後に更新）
+                </p>
+            </div>
+        </section>
+
+        <hr class="line">
+
+        <h2 id="contact">Contact</h2>
+        <section class="contact">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy2Ol-JowW4xWqv3GTpOTDIVYikLCZWLdfWCosZRxxc007_w/viewform" class = "button">
+                お問い合わせはこちら
+            </a>
+            <p>※Googleフォームに移動します</p>
+        </section>
+    </div>
+    <script src="../js/script.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="top">Top</button>
+    </div>
+    <footer>
+        <p>© 2023 Issei ICHIKAWA</p>
+    </footer>
+</body>
+</html>
